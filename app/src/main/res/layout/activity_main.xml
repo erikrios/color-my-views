@@ -23,8 +23,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
